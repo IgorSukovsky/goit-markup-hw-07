@@ -1,0 +1,182 @@
+/* цвет основного текса #757575 */
+/* цвет заголовков #212121 */
+/* цвет текста курсор #2196F3 */
+/* лого #2196F3 + #212121 */
+/* цвет основного фона #FFFFFF */
+/* цвет дополнительного фона #F5F4FA */
+/* цвет фона services и footer #2F303A */
+
+:root {
+    --primary-text-color: #757575;
+    --secondary-text-color: #2196F3;
+    --title-text-color: #212121;
+    --primary-font-color: #FFFFFF;
+    --secondary-font-color: #F5F4FA;
+    --third-font-color: #2F303A;
+    --border-color: #ececec;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-font-color);
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: roboto, sans-serif;
+    color: var(--title-text-color);
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+div,
+ul,
+p {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    }
+
+.header,
+.header-nav,
+.header-contacts,
+.nav-list,
+.features,
+.occupation,
+.team {
+   display: flex;
+}
+
+.header,
+.features,
+.occupation,
+.team {
+    justify-content: space-between;
+}
+
+header {
+    border-bottom: 1px solid var(--border-color);
+    }
+
+    .logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--title-text-color);
+    padding: 25px 93px 25px 0;
+
+    
+}
+
+.logo-color {
+    color: var(--title-text-color);
+    padding-left: 5px;
+    display: inline-block;
+}
+
+.nav-list,
+.header-contacts {
+    align-items: center;
+}
+
+.hero {
+    background-color: var(--third-font-color);
+    height: 600px;
+    padding-top: 200px;
+    margin-top: 0;
+}
+
+.hero-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-font-color);
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.hero-btn {
+    width: 200px;
+    height: 50px;
+    background-color: var(--secondary-text-color);
+    color: var(--primary-font-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    outline: none;
+    padding: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.contact-link,
+.nav-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    }
+
+.nav-link.active {
+    color: var(--secondary-text-color);
+}
+
+.nav-link {
+    margin-right: 50px;
+}
+
+.contact-link {
+    margin-left: 50px;
+    display: block;
+}
+
+.contact-link:hover,
+.nav-link:hover {
+    color: var(--secondary-text-color);
+}
+ .ssection {
+     padding: 94px 0;
+ }
