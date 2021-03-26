@@ -54,12 +54,12 @@
 
 .link-box {
         margin-right: 93px;
-    }
 
-    &.list {
-        display: flex;
-    }
-    &.link {
+        & .list {
+            display: flex;
+        }
+    
+    & .link {
         display: flex;
         display: flex;
         width: 44px;
@@ -70,7 +70,7 @@
         border-radius: 50%;
         transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    &.link:hover,
+    & .link:hover,
     & .link:focus {
         background-color: var(--accent-color);
     }
